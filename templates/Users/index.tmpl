@@ -1,0 +1,11 @@
+{{ define "Users/index.tmpl" }}
+<html>
+<head>
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Hello {{ .user }}</title>
+</head>
+<body class="text-center text-lg bg-black font-light text-white p-5 space-y-3">
+    <h1 class="text-3xl">Hello {{ .user }}</h1>
+</body>
+</html>
+{{ end }}
